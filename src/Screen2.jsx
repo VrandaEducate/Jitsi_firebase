@@ -9,7 +9,6 @@ const FireBaseStore = getFirestore(app);
 const Screen2 = ({setAPI, api}) => {
 
 
-
     const handleApiReady = (externalAPI) => {
         console.log(externalAPI);
         setAPI(externalAPI);
